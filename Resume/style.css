@@ -1,0 +1,137 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    padding: 30px;
+}
+
+/* Resume Container */
+.resume,
+section,
+footer {
+    background: #fff;
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Header */
+header {
+    text-align: center;
+}
+
+header h1 {
+    color: #0b5ed7;
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+/* Horizontal Line */
+hr {
+    max-width: 900px;
+    margin: auto;
+    border: none;
+    border-top: 2px solid #0b5ed7;
+}
+
+/* Section Heading */
+h2 {
+    color: #0b5ed7;
+    margin-bottom: 12px;
+    border-bottom: 2px solid #0b5ed7;
+    display: inline-block;
+    padding-bottom: 4px;
+}
+
+h3 {
+    margin-top: 15px;
+    color: #000;
+}
+
+/* Paragraph */
+p {
+    margin: 8px 0;
+}
+
+/* Skills List */
+ul {
+    margin-left: 25px;
+}
+
+ul li {
+    margin: 6px 0;
+    text-transform: uppercase;
+}
+
+/* Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+table th,
+table td {
+    border: 1px solid #444;
+    padding: 10px;
+    text-align: center;
+}
+
+table th {
+    background-color: #0b5ed7;
+    color: white;
+}
+
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+table tr:hover {
+    background-color: #e8f1ff;
+}
+
+/* Personal Details */
+strong {
+    color: #444;
+}
+
+/* Footer */
+footer {
+    text-align: right;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 8px 0;
+}
+
+
+    .resume,
+    section,
+    footer {
+        padding: 15px;
+    }
+
+    header h1 {
+        font-size: 28px;
+    }
+
+    table {
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
